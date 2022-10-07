@@ -1,0 +1,222 @@
+/* IMPOSTAZIONI GENERALI */
+html {
+    font-size: 62.5%;
+}
+body {
+    color: #000;
+    font-size: 1.5rem;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 1.8;
+}
+h3 {
+    line-height: 1;
+}
+h2 {
+    font-size: 3.5;
+    line-height: 1.1;
+}
+h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+}
+a, .lni {
+    color: #e42424;
+}
+
+.btn {
+    color: white;
+    padding: 1rem;
+    border: none;
+    font-size: 1.9rem;
+    background: linear-gradient(0.25turn,#6cc1e2, #392f7a);
+}
+footer {
+    background-color: rgb(238, 238, 238);
+}
+
+/* HEADER */
+
+header {
+    text-transform: uppercase;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 5px 10px 10px #d3d3d3;            /* da vedere*/
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+header div, nav {
+    padding: 1rem 1rem 0 1rem;
+    flex: 1 0 auto;
+}
+nav {
+    padding-top: 0;
+}
+.toggle, #menu_is_active {
+  display: none;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+header a {
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+.menu-item {
+    padding-left: 4rem;
+    display: none;
+    width: 100%;
+}
+  #menu_is_active:checked ~ .menu-item {
+    display: block;
+}
+.toggle {
+    display: block;
+}
+.lni-more-alt {
+    font-size: 2.5rem;
+    position: absolute;
+    top: 2.5rem;
+    right: 1rem;
+}
+/* MAIN */
+
+/* FOOTER */
+footer {
+    padding: 2.5rem;
+     
+}
+footer div {
+    padding-bottom: 1.5rem;
+}
+h3 {
+    font-style: 2rem;
+    font-weight: 200;
+}
+div i {
+    padding-top: 2rem;
+    
+}
+footer div p {
+    font-size: small;
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    height: 3.5rem;
+    margin-top: 2rem;
+}
+
+main {
+    background-image: url(../images/banner.jpg);
+    color: white; 
+    background-size: cover;
+    width: 100vw;
+    
+}
+
+main h1 {
+    padding: 2rem 2rem 2rem 2rem;
+    text-shadow: 2px 5px 10px #171717;
+}
+main p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    text-shadow: 2px 5px 10px #171717;
+}
+main a:link {
+    color: white;
+    padding: 1rem;
+    border: none;
+    font-size: 1.9rem;
+    background: linear-gradient(0.25turn,#6cc1e2, #392f7a);
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    text-decoration: none;
+}
+
+/*main a {
+    padding-right: 2rem;
+}*/
+
+section {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+}
+
+section h3 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+section p {
+    font-size: small;
+}
+
+.lni {
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
+
+article{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    background-color: #0B0631;
+    color: white;
+
+}
+article h2 {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+article p {
+    font-size: small;
+    padding-bottom: 2rem;
+}
+article a:link  {
+    color: white;
+    padding: 1rem;
+    border: none;
+    font-size: 1.9rem;
+    background: linear-gradient(0.25turn,#6cc1e2, #392f7a);
+    margin-bottom: 2rem;
+}
+article a {
+    text-decoration: none;
+}
+
+#scrivi {
+color: white;
+}
+
+aside {
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+aside h3 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+aside p {
+    font-size: small;
+}
+
+/* RESPONSIVE */
+
